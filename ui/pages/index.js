@@ -3,6 +3,7 @@ import Header from "@/components/Common/header";
 import Webcam from '@/components/WebCame/WeCamePage';
 import AboutWebcame from '@/components/WebCame/AboutWebcame';
 import Footer from '@/components/Footer/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function indexPage(props) {
   return (
@@ -17,6 +18,8 @@ export default function indexPage(props) {
       <Header />
       <Webcam/>
       <AboutWebcame/>
+      <Analytics />
+
 
       <Footer/>
 
